@@ -1,115 +1,97 @@
-vdc-portal
+# vdc-portal
 
-A modern, full-stack dashboard and user management portal built using React, CoreUI, Node.js, and MongoDB. Designed as a modular, extensible boilerplate project — ideal for developers looking to build media dashboards, admin portals, or SaaS interfaces.
+**vdc-portal** is a modern, full-stack, developer-friendly web application template designed as a starting point for building powerful dashboards, admin panels, media portals, or any internal tools. It integrates a well-structured frontend and backend with essential features like user authentication, role-based access, and queue/file management, making it ideal for rapid development.
 
-✨ Features
+---
 
-✉ User authentication with JWT (login/register)
+## 🚀 Features
 
-📈 Modern admin dashboard UI with CoreUI 5
+### ✅ Frontend
 
-📁 Role-based authorization (Admin vs. User)
+- **React 18+** with **Vite** for fast development and build
+- **CoreUI** for elegant admin dashboards and UI components
+- **Redux Toolkit** for state management
+- **Axios** for API integration
+- **Modular** and **extensible** architecture
 
-🔒 Protected routes and session management
+### ✅ Backend
 
-🔍 Searchable file queue interface
+- **Node.js** with **Express**
+- **MongoDB** with **Mongoose**
+- **JWT Authentication** with role-based access (admin/user)
+- **Winston** for logging
+- **Cron Jobs** support for background tasks
+- **REST API** with clean folder structure
 
-📅 Cron job monitoring panel
+---
 
-💌 Notification system with unread counts
+## 📁 Project Structure
 
-✨ Fully responsive and mobile-ready
+The project is organized to follow industry best practices and is suitable for scaling. See [docs/project-structure.md](docs/project-structure.md) for full details.
 
-📦 Tech Stack
+## 📸 Screenshots
 
-Frontend
+> Coming soon!
 
-React 18+
+---
 
-Vite
+## ⚙️ Getting Started
 
-CoreUI
-
-Axios
-
-Redux Toolkit
-
-Backend
-
-Node.js + Express
-
-MongoDB (with Mongoose)
-
-JWT Auth
-
-Winston Logging
-
-Cron for background tasks
-
-⚙️ Setup Instructions
-
-1. Clone the repo
 ```
-git clone https://github.com/your-org/vdc-portal.git
+bash
+# Clone the repository
+git clone https://github.com/hcfk/vdc-portal.git
 cd vdc-portal
 ```
-2. Install dependencies
+# Install dependencies
+```
+npm install
+```
+# Setup environment variables (.env file)
 
-Backend:
+# Start backend (in /server)
 ```
 cd server
 npm install
+npm run dev
 ```
-Frontend:
+# Start frontend (in /client)
 ```
 cd ../client
 npm install
-```
-3. Create a .env file
-
-# server/.env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/vdcDB
-JWT_SECRET=your_super_secret
-
-4. Seed the database
-```
-node seedDatabase.js
-```
-5. Run the app
-
-Backend:
-```
 npm run dev
 ```
-Frontend:
-```
-npm run dev
-```
-🚀 Use Cases
 
-Admin or media dashboards
+## 📄 License
 
-Transcription or file processing platforms
+This project is licensed under the [MIT License](LICENSE).
 
-Internal tools with role-based access
+© 2025 Fatih Kucukpetek – Visual Data Core
 
-Starter for full-stack SaaS products
+---
 
-🔗 Contributing
+## 🔗 Related Projects
 
-We welcome PRs, ideas, and issue reports! Please fork the repo and submit a pull request.
+- [visual-data-core](https://github.com/hcfk/visual-data-core) – Grafana-like customizable dashboard platform
 
-✉ License
+---
 
-MIT License.
+## 💡 Who is this for?
 
-📷 Screenshots
+- Developers building admin panels or dashboards
+- Teams wanting a solid full-stack boilerplate
+- Anyone seeking a modern stack with authentication and modular architecture
 
-(Add images/gifs of login screen, dashboard, and queue tables)
+---
 
-🚨 Related Project
+## 📬 Contact
 
-Looking for a full data dashboard stack with real-time and historical analytics (InfluxDB, etc.)?
-Check out our main project: visual-data-core
+- GitHub: [@hcfk](https://github.com/hcfk)
+- Website: [visualdatacore.com](https://visualdatacore.com) _(Coming Soon)_
+
+---
+
+## 🌟 Star This Project
+
+If you find this project useful, please consider giving it a ⭐ on [GitHub](https://github.com/hcfk/vdc-portal) to support it!
 
